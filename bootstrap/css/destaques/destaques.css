@@ -1,0 +1,41 @@
+
+
+.showcase .showcase-text {
+    padding: 3rem;
+  }
+  
+.showcase .showcase-img {
+min-height: 30rem;
+background-repeat: no-repeat;
+background-size: cover;
+-webkit-box-shadow: inset 2px 0px 5px 3px rgba(252,249,252,1);
+-moz-box-shadow: inset 2px 0px 5px 3px rgba(252,249,252,1);
+box-shadow: inset 2px 0px 5px 3px rgba(252,249,252,1);
+
+}
+
+
+@media (min-width: 768px) {
+.showcase .showcase-text {
+    padding: 7rem;
+}
+}
+
+.showcase a{
+    text-decoration: none;
+}
+
+.linha1 {
+    background-image: url("../../../assets/img/back11.png");
+    background-size: cover;
+}
+
+.linha2{
+    background-image: url("../../../assets/img/back22.png");
+    background-size: cover;
+}
+
+/* CARROSSEL */
+.slide img{
+    min-height: 10rem;
+}
